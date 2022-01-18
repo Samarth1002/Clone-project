@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <header>
+        <div class="heading-container">
+          <div class="header-title">ROI Calculator</div>
+          <i class="fa fa-times header-times" aria-hidden="true"></i>
+        </div>
+      </header>
+      <section>
+        <div class="price-toggler">
+          <div class="cake-image">
+            <img
+              src="./Images/cake.jpg"
+              height="16px"
+              width="17px"
+              class="cake-image"
+              alt="cake image goes here"
+            />
+          </div>
+          <p class="cake">CAKE</p>
+          <i
+            class="fa fa-toggle-on toggler-input-one"
+            aria-hidden="true"
+            style="color: #eab451"
+          ></i>
+          <p class="price">USD</p>
+        </div>
+      </section>
+
+      <section>
+        <div class="input-section">
+          <input type="text" name="" id="input-value" value="0.000 USD" />
+        </div>
+      </section>
+      <section>
+        <div class="row">
+          <div class="col-one">
+            <div class="col-one-value">$1000</div>
+            <div class="col-one-value">$100</div>
+          </div>
+          <div class="col-two">
+            <div class="col-two-value">~ CAKE 0.000</div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="time-frame-title">Timeframe</div>
+        <div class="time-frame">
+          <div class="tf" id="tf-one">1 Day</div>
+          <div class="tf">7 Days</div>
+          <div class="tf">30 Days</div>
+          <div class="tf">1 Year</div>
+          <div class="tf">5 Year</div>
+        </div>
+      </section>
+      <section>
+        <div class="enable-section">
+          <div class="enable-section-title">Enable Accelerated APY</div>
+          <i
+            class="fa fa-toggle-on toggler-input-two"
+            aria-hidden="true"
+            style="color: #eab451"
+          ></i>
+        </div>
+      </section>
+      <section>
+        <div class="tier-section">Select Tier</div>
+        <div class="time-frame">
+          <div class="tf" id="tier-frame-one">Tier 1</div>
+          <div class="tf">Tier 2</div>
+          <div class="tf">Tier 3</div>
+          <div class="tf">Tier 4</div>
+          <div class="tf">Tier 5</div>
+        </div>
+      </section>
+
+      <section>
+        <div class="current-rate">ROI at Current Rates</div>
+        <div class="input-section">
+          <input
+            type="text"
+            name=""
+            id="current-rate-value"
+            value="0.00 USD"
+          />
+        </div>
+        <div class="current-rate">~ 0.000 CAKE + 0.000000 DON</div>
+      </section>
+
+      <footer>
+        <div class="detail-container">
+          <div class="detail">Hide details</div>
+          <i class="fa fa-angle-up" aria-hidden="true"></i>
+        </div>
+        <div class="apy-section">
+          <div>APY</div>
+          <div id="appy-diff">9.0%</div>
+        </div>
+        <ul class="list">
+          <li class="list-item">Caculated based on current rates</li>
+          <li class="list-item">
+            All figures are estimates provided for your convenience only, and by
+            no means represent guarenteed returns.
+          </li>
+        </ul>
+      </footer>
+    </section>
+  </body>
+</html>

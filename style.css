@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  background-color: #000;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+
+}
+.container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: auto;
+  width: 26rem;
+  border-radius: 10px;
+  padding: 1rem;
+}
+.heading-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* margin: 1rem; */
+  /* border: 2px solid red; */
+}
+.header-title {
+  font-size: 20px;
+  font-weight: 600;
+}
+.cake-image {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-right: 2px;
+}
+.price-toggler {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /* margin: 1rem; */
+  /* border: 2px solid brown; */
+}
+.cake,
+.toggler,
+.price {
+  margin: 2px;
+  /* border: 2px solid green; */
+  font-size: 16px;
+  margin-left: 7px;
+}
+
+.input-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+  /* margin: 1rem; */
+}
+#input-value {
+  text-align: end;
+  font-size: 1rem;
+  width: 100%;
+  padding: 15px;
+  border-radius: 10px;
+  font-weight: 600;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid rgb(215 215 215);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* justify-content: center; */
+  /* border: 2px solid orangered; */
+  /* width: 10 */
+  /* margin: 1rem; */
+}
+.col-one {
+  float: left;
+  width: 50%;
+  /* border: 2px solid black; */
+  display: flex;
+}
+
+.col-one-value {
+  /* border: 2px solid black; */
+  margin: 5px;
+  padding: 6px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 7px;
+  font-size: 15px;
+  background-color: #f7f7f7;
+  font-weight: 600;
+}
+
+.col-two {
+  float: right;
+  width: 46%;
+  /* border: 2px solid black; */
+  margin: auto;
+  position: relative;
+  top: -8px;
+  left: 10px;
+  color: #808080;
+}
+.col-two-value {
+  text-align: end;
+  font-size: 13px;
+  font-weight: 600;
+}
+.time-frame-title {
+  /* border: 2px solid green; */
+  margin: 13px 0;
+  font-size: 16px;
+}
+.time-frame {
+  display: flex;
+  justify-content: space-between;
+  /* border: 2px solid slateblue; */
+  /* margin: 1rem; */
+  text-align: center;
+}
+
+.tf {
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 24px;
+  border-radius: 15px;
+  font-size: 13px;
+  background-color: rgb(247, 247, 247);
+  margin-right: 10px;
+  color: #808080;
+  font-weight: 600;
+}
+
+#tf-one {
+  background-color: #ffeb87;
+  border: 1px solid #fbde4c;
+  color: #000000;
+}
+
+#tier-frame-one {
+  background-color: #ffeb87;
+  border: 1px solid #fbde4c;
+  color: #000000;
+}
+
+.enable-section {
+  margin: 13px 0;
+  /* border: 2px solid #cd853f; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.enable-section-title {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.tier-section {
+  margin: 13px 0;
+  /* border: 1px solid yellowgreen; */
+  font-size: 15px;
+  color: grey;
+}
+.current-rate {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid salmon; */
+  color: #808080;
+  font-size: 15px;
+  margin: 10px 0;
+}
+#current-rate-value {
+  width: 100%;
+  font-size: 1.2rem;
+  text-align: end;
+  padding: 13px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 10px;
+  font-weight: 600;
+  border: 1px solid rgb(215 215 215);
+}
+.apy-section {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 16px;
+  /* margin: 1rem; */
+}
+
+#appy-diff {
+  color: #cd853f;
+}
+
+.detail-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.list {
+  color: grey;
+  font-size: 15px;
+  margin-left: -1rem;
+}
+.toggler-input-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  margin-left: 2px;
+}
+.toggler-input-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 38px;
+}
